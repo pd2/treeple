@@ -16,7 +16,7 @@ let trees_db;
 
 async function get_trees_db() {
   
-  let responses = await fetch('/trees.txt');
+  let responses = await fetch('trees.txt');
   
   trees_db = await responses.json();
   
