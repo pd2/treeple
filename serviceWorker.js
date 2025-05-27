@@ -2,10 +2,10 @@ const staticDev = "treeple_game"
 const service_worker_version = "v1.031"
 const assets = [
   "/",
-  "/index.html",
-  "/style.css",
-  "/trees.txt",
-  "/script.js"
+  "index.html",
+  "style.css",
+  "trees.txt",
+  "script.js"
 ]
 
 self.addEventListener("install", installEvent => {
