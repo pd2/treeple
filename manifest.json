@@ -1,0 +1,16 @@
+{
+  "name": "Tree-ple Game",
+  "short_name": "Treeple",
+  "start_url": "https://treeple.glitch.me/",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.global/aa2d4224-b691-4a70-bc8a-9fd7223bf1aa/treeple_icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#e6ffe6",
+  "background_color": "#e6ffe6",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
