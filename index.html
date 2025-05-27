@@ -16,12 +16,12 @@
 
     <title>Treeple Game</title>
     <link rel="icon" href="https://cdn.glitch.global/aa2d4224-b691-4a70-bc8a-9fd7223bf1aa/treeple_icon.png" type="image/x-icon">
-    <link rel="manifest" href="/manifest.json" >
+    <link rel="manifest" href="manifest.json" >
     <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="style.css" >
     
     <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <h1>
@@ -58,7 +58,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("serviceWorker.js")
             .then(res => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
         })
