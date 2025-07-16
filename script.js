@@ -561,7 +561,7 @@ function ShareIt() {
     results += "\n";
   });
   
-  let linkURL = "https://treeple.glitch.me";
+  let linkURL = "https://pd2.github.io/treeple/";
   
   copyText = `I played #Treeple game to learn about ${trees_db[tree_list[0]].name + ', ' + trees_db[tree_list[1]].name + ', ' + trees_db[tree_list[2]].name } at ${linkURL}\n${results}`;
   
