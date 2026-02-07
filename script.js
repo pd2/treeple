@@ -27,7 +27,7 @@ async function get_trees_db() {
 get_trees_db();
 
 
-const path = 'https://cdn.glitch.global/ffaa90aa-771d-4d01-a5ef-c08e4bd19395/';
+const path = 'https://pd2.github.io/tree-id/assets/';
 
 
 let numSelected, num_wrong_guesses = 0, num_found = 0, num_hint_given = 0;
