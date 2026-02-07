@@ -1,5 +1,5 @@
 const staticDev = "treeple_game"
-const service_worker_version = "v1.031"
+const service_worker_version = "v1.1"
 const assets = [
   "/",
   "index.html",
